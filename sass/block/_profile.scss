@@ -1,0 +1,26 @@
+.profile {
+    background-color: $bground;
+    border: 7.5px ridge $yellow;
+    border-radius: 30px;
+    margin: 10px auto;
+    overflow: hidden;
+    width: 50%;
+    text-align: center;
+    & h4 {
+        background-image: linear-gradient(
+          180deg,
+          $lightyellow,
+          $yellow,
+          $darkeryellow
+        );
+        font-size: 1.5em;
+        border-bottom: 5px ridge $yellow;
+        border-radius: 20px;
+        text-align: center;
+        padding: 1em;
+      }
+      & ul, a {
+        padding: 10px;
+        text-decoration: none;
+      }
+}

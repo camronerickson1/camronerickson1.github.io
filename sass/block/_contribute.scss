@@ -1,0 +1,23 @@
+#contribute {
+    width: auto;
+    background-color: $bground;
+    border: 7.5px ridge $yellow;
+    border-radius: 10%;
+    margin:  3em auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+
+    & h2 {
+        background-image: linear-gradient(
+          180deg,
+          $lightyellow,
+          $yellow,
+          $darkeryellow
+        );
+        border-bottom: 5px ridge $yellow;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1em;
+    }
+}

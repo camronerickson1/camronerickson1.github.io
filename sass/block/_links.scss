@@ -1,0 +1,14 @@
+@import "../Global/theme";
+
+main a:not(ul li a) {
+  color: $red;
+}
+
+.skip-link {
+  width: 100%;
+  background-color: $lightyellow;
+  color: $black;
+  font-size: 1em;
+  padding: 0.5em 2em;
+  display: block;
+}

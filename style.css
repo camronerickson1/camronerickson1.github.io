@@ -439,7 +439,7 @@ nav ul a {
 }
 
 #contribute {
-  width: auto;
+  width: 96%;
   background-color: #FFFBF1;
   border: 7.5px ridge #ffdc84;
   border-radius: 10%;
@@ -454,6 +454,10 @@ nav ul a {
   border-radius: 20px;
   text-align: center;
   padding: 1em;
+}
+#contribute p, #contribute h3, #contribute ol {
+  padding: 1em;
+  list-style: none;
 }
 
 #files .container {
